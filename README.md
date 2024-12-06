@@ -120,4 +120,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 If you have any questions or run into issues, feel free to open an issue on GitHub or contact us directly. We’re here to help you make the most of your BigCommerce store!
 
-Happy coding! 🎉
+Code hard, bro harder! 💻💪
