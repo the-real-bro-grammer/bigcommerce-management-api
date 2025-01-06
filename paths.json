@@ -1,0 +1,55 @@
+{
+    "scheme": "https",
+    "domain": "api.bigcommerce.com",
+    "stores": {
+        "path": "stores/{store_hash}",
+        "v2": {
+            "orders": {
+                "path": "v2/orders",
+                "transactions": {
+                    "path": "v2/orders/{order_id}/transactions"
+                },
+                "coupons": {
+                    "path": "v2/orders/coupons"
+                },
+                "shippingAddresses": {
+                    "path": "v2/orders/{order_id}/shipping_addresses"
+                },
+                "order_products": {
+                    "path": "v2/orders/{order_id}/products",
+                    "queries": {
+                        "page": "page",
+                        "pageSize": "limit"
+                    }
+                }
+            }
+        },
+        "v3": {
+            "storefront": {
+                "apiToken": {
+                    "path": "v3/storefront/api-token"
+                }
+            },
+            "catalog": {
+                "products": {
+                    "path": "v3/catalog/products"
+                },
+                "product": {
+                    "path": "v3/catalog/{product_id}"
+                },
+                "categories": {
+                    "path": "v3/catalog/categories"
+                }
+            },
+            "customers": {
+                "path": "v3/customers"
+            },
+            "inventory": {
+                "path": "v3/inventory/items"
+            },
+            "sites": {
+                "path": "v3/sites"
+            }
+        }
+    }
+}
